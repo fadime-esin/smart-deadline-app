@@ -113,6 +113,12 @@ flowchart LR
 - Android phone with the [Expo Go](https://expo.dev/go) app for development
 - A free [Expo](https://expo.dev) account for building the APK
 
+### Get the latest version
+
+The project is maintained on GitHub. Double-click **`update.bat`** to download the latest version into
+your project folder. Installed packages are kept, and new ones are installed only when the package list
+has changed.
+
 ### Run on your phone
 
 Double-click **`start.bat`** in the project folder. On the first run it installs all packages, then shows a
@@ -149,6 +155,7 @@ npx expo install <pkg>  # add a library with a compatible version
 
 ```
 smart-deadline-app/
+├── update.bat             # download the latest version from GitHub
 ├── start.bat              # start the development server (QR code for Expo Go)
 ├── start-tunnel.bat       # same, for a phone on another network
 ├── build-apk.bat          # build the installable APK in the cloud
