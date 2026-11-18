@@ -37,7 +37,7 @@ personal data ever leaves the device.
 
 ## Features
 
-| | |
+| Feature | What it does |
 |---|---|
 | **Dynamic priority score** | Ranks tasks by remaining work, category importance and the working time left before each deadline. |
 | **Today's plan** | Shows which tasks to work on today and for how long, using the Earliest Deadline First rule. |
