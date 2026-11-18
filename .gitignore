@@ -1,0 +1,46 @@
+# ------------------------------------------------------------
+# Files that are NOT uploaded to GitHub.
+# ------------------------------------------------------------
+
+# Installed packages (recreated with "npm install" / setup-packages.bat)
+node_modules/
+
+# Expo and build output
+.expo/
+dist/
+web-build/
+expo-env.d.ts
+*.apk
+*.aab
+*.tsbuildinfo
+
+# Generated native folders (created automatically by the build)
+/mobile/android/
+/mobile/ios/
+.kotlin/
+
+# Signing keys and secrets - never upload these
+*.jks
+*.keystore
+*.p8
+*.p12
+*.key
+*.pem
+*.mobileprovision
+.env
+.env*.local
+
+# Hidden editor and tool folders (.vscode, .expo, ...)
+.*/
+AGENTS.md
+
+# Template file from the project generator (not this project's license)
+/mobile/LICENSE
+
+# Logs and system files
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+.metro-health-check*
+.DS_Store
+Thumbs.db
